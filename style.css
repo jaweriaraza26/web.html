@@ -1,0 +1,203 @@
+* {
+   text-transform: capitalize;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   scroll-behavior: smooth;
+   font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.botton {
+   background: #EFA41C;
+   border: 2px solid #EFA41C;
+   border-radius: 5px;
+   color: white;
+   width: 70px;
+   padding: 6px;
+   margin: 2px;
+}
+
+span {
+   color: #E09A1B;
+   font-family: sans-serif;
+   text-shadow: 1px 1px 1px rgb(71, 70, 70);
+}
+
+.navbar-brand {
+   margin: 0px 16px 5px 0px;
+   padding: 5px 0px;
+   font-size: 10px;
+}
+
+.home1 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://shahbaz-travel-app.netlify.app/image/banner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   margin-top: -25px;
+}
+
+.content {
+
+   display: flex;
+   text-align: center;
+   padding-top: 200px;
+   flex-direction: column;
+   color: #fff;
+
+}
+
+.content>h2 {
+   text-shadow: 1px 1px 1px rgb(75, 72, 72) !important;
+   font-size: 40px !important;
+}
+
+.content>h1 {
+   text-shadow: 1px 1px 1px rgb(75, 72, 72) !important;
+   font-size: 50px !important;
+}
+
+.content>a {
+   padding: 10px;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.5s;
+   border-radius: 5px;
+   font-weight: 550;
+}
+
+.maintext {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+}
+
+.book {
+   padding: 50px;
+}
+
+.submit {
+   background: #EFA41C;
+   border: 2px solid #EFA41C;
+   border-radius: 5px;
+   color: white;
+   width: 100px;
+   padding: 6px;
+   margin: 2px;
+}
+
+.card>img {
+   vertical-align: center;
+   overflow-clip-margin: content-box;
+   overflow: clip;
+   width: 410px;
+   height: 400px;
+   border-radius: 10px;
+   margin: 10px;
+}
+
+.pakage {
+   padding-top: 20px;
+}
+
+.service {
+   padding-top: 20px;
+}
+
+.icon {
+   font-size: 80px;
+   color: orange;
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+h3 {
+   font-size: 40px;
+   margin: 10px 0;
+   text-align: center;
+}
+
+.card1 {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px rgba(87, 86, 86, 0.1);
+}
+
+.card2 {
+   background-color: #fff;
+   padding: 20px;
+   margin: 10px;
+}
+
+.main-txt>h1 {
+   text-align: center;
+   margin-top: 30px;
+   font-weight: 600;
+   text-shadow: 0px 1px 1px black;
+}
+
+.card3 {
+   border-radius: 10px;
+}
+
+.submit1 {
+   background: #EFA41C;
+   border: 2px solid #EFA41C;
+   border-radius: 5px;
+   color: white;
+   width: 150px;
+   padding: 6px;
+   margin: 5px;
+}
+
+.main-txt {
+   margin-bottom: 20px;
+}
+
+.footer-title {
+   width: 100%;
+   margin-top: 150px;
+   background: white;
+   display: flex;
+   text-align: center;
+    font-weight: 600;
+   text-shadow: 0px 1px 1px black;
+}
+
+.social-link i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.credit{
+   margin: 0px 0px 16px 0px;
+}
+
+.foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 150px;
+}

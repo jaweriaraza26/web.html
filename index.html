@@ -1,1 +1,418 @@
-# web.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>t</span>ravel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pakage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="botton" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="home1">
+        <div class="content">
+            <h2>welcome to home</h2>
+
+            <h1>visit
+                <span class="content-1">pakistan</span>
+            </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <a href="#book">book place</a>
+        </div>
+    </div>
+    <section class="book" id="book">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>b</span>ook </h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="https://shahbaz-travel-app.netlify.app/image/card4.avif" alt="pic">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <form action="#">
+                        <input type="text" class="form-control" placeholder="where to" required>
+                        <br>
+                        <input type="text" class="form-control" placeholder="how many" required>
+                        <br>
+                        <input type="date" class="form-control" placeholder="additional info" required>
+                        <br>
+                        <input type="date" class="form-control" placeholder="additional info" required>
+                        <br>
+                        <textarea class="form-control" name="text" rows="5" placeholder="enter your name and details"
+                            required> </textarea>
+                        <br>
+                        <input type="submit" value="book now" class="submit" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="pakage" id="pakage">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>p</span>akage </h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/United-Kingdom.jpg" alt="pic">
+                    </div>
+                    <h2><strong>united kingdom</strong></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/australia.jpg" alt="pic">
+                    </div>
+                    <div class="card-body">
+                        <h2><strong>australia</strong></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/pakistan.jpg" alt="pic">
+                    </div>
+                    <div class="card-body">
+                        <h2><strong>pakistan</strong></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section class="pakage" id="pakage">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>p</span>akage </h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/france.jpg" alt="pic">
+                    </div>
+                    <div class="card-body">
+                        <h2> <STRONG>france</STRONG></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/italy.avif" alt="pic">
+                    </div>
+                    <div class="card-body">
+                        <h2> <STRONG>italy</STRONG></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/newzealan.jpg" alt="pic">
+                    </div>
+                    <div class="card-body">
+                        <h2> <strong>new zealand</strong></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked" style="color:#EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked" style="color: #EFA41C;"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <h6><strong>Price: $1500</strong></h6>
+                        <button class="submit">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>s</span>ervices</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Affordable Hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>food and drink</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>safety guide</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>s</span>ervices</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Around the world</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>fastest travel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card1">
+                        <div class="icon">
+                            <i class="fas fa-hiking"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>adventures</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt recusandae
+                                at ducimus error. Consectetur .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>g</span>allery</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g1.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g2.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g3.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>g</span>allery</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g1.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g2.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card2">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/g3.jpg" width="470px" height="250px"
+                            border-radius="20px" alt="gallery image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="main-txt">
+                <h1>about <span>us</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card3">
+                        <img src="https://shahbaz-travel-app.netlify.app/image/map.jpg" alt="imge">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2>how travel agency works</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Asperiores, saepe laudantium. Saepe <br>
+                        nobis qui voluptate, vitae consequuntur <br> error quidem cum officiis ducimus cumque adipisci <br> ab
+                        temporibus sed deserunt ut <br> placeat.</p>
+                    <button class="submit1">read more...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="foot">
+                <h1 id="footer-title"><span>t</span>ravel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates recusandae eum, praesentium autem
+                    dolorem id.</p>
+                <div class="social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <div class="credit">
+                    <p>designed by
+                        <a href="https://github.com/jaweriaraza26" target="_blank"><span>jaweria raza</span></a>
+                    </p>
+                    <p>&copy; copy right by <span>jaweria raza</span>.all rights are reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
